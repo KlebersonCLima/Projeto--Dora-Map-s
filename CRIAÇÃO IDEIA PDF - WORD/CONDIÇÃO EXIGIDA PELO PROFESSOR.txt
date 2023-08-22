@@ -1,0 +1,10 @@
+Ponto de partida do projeto ( Registro de veteroes)
+
+Condições da programação:
+
+Vetor ou matriz, função, registro e modo grafico;
+view, modo e control;
+
+Aula 1 mapa : Vetor + Registro + graficos + funçoes;
+
+

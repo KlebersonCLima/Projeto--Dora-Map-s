@@ -1,0 +1,57 @@
+EUROPA:
+
+ - populaçao > 751,6 
+ - destinos > Torre Eiffel – França (Paris)
+              Atenas – Grécia
+	      Coliseu de Roma – Itália
+ - curiosidade > Mais de 60 línguas são faladas no continente europeu
+
+AMERICA:
+
+ - populaçao > America do SUL - 444,6 
+               America do NORTE - 609,5 
+	       America CENTRAL - 75,3 
+			TOTAL - 1,129,556,948 
+ - destinos > Paises mais visitados da America são: México, Estados Unidos, Argentina
+ - curiosidade > Os oceanos Pacífico, Glacial Ártico e Atlântico banham o continente, que é o segundo maior e mais comprido do mundo
+
+OCEANIA:
+
+ - populaçao > 37,1 
+ - destinos > Pontos turisticos mais visitados: Sidney (Austrália), Grande Barreira de Corais (Austrália), Ilha Kangaroo (Austrália)
+ - curiosidade > A Oceania é o menor continente do mundo e também o mais novo
+		 A Austrália não faz fronteira com nenhum outro país
+
+ANTARTIDA:
+
+ - populaçao > 4 mil pessoas durante o verão e 800 pessoas durante o inverno
+ - destinos > Ilha de Ross, Peter I Island
+ - curiosidade > É o continente mais frio, seco, com a maior média de altitude e de maior índice de ventos fortes do planeta
+
+AFRICA:
+
+ - populaçao > 1,445,067,147
+ - destinos > 5 paises mais visitados da Africa
+                 África do Sul.
+                 Moçambique.
+                 Zimbabwe.
+		 Marrocos.
+		 Egito.
+ - curiosidade > Muitos turistas procuram a África para fazerem safári
+		 O Rio Nilo é considerado o maior rio do mundo
+		 Dos 30 países mais pobres do mundo, 21 são africanos
+
+ASIA:
+
+ - populaçao > 4,794,705,221
+ - destinos > 5 destinos mais visitados da Asia
+		Tóquio - (Japão)
+		Pequim - (China)
+		Dubai - (Emirados Árabes)
+		Ilhas Maldivas
+		Bangkok - (Tailândia)
+ - curiosidade > O maior continente do mundo
+		 O maior número de bilionários do mundo
+		 As maiores montanhas do mundo
+
+
