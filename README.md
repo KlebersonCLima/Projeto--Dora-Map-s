@@ -1,59 +1,38 @@
-# 🌍 Projeto Dora-MAP'S  
+# Dora MAP'S
 
-Trabalho desenvolvido no 1º período para aprimorar a lógica de programação em **linguagem C**, utilizando o ambiente de desenvolvimento **Code::Blocks**.  
+Jogo interativo em C com a biblioteca `graphics.h`, desenvolvido no 1º período para praticar lógica de programação. Apresenta um mapa interativo com curiosidades sobre lugares do mundo e um easter egg inspirado na "Dora Maps", que dá nome ao projeto.
 
-## 📌 Sobre o Projeto  
-O objetivo do projeto foi explorar o uso de **funções**, **estruturas** e a biblioteca **graphics.h** para criar um jogo interativo. O jogo apresenta um **mapa interativo** que exibe curiosidades sobre diferentes lugares do mundo.  
+## Conceitos aplicados
 
-Além disso, há um **easter egg** inspirado na "Dora Maps", o que deu origem ao nome do projeto.  
+Funções, estruturas e programação gráfica em C.
 
-## Tecnologias Utilizadas  
-- **Linguagem C**  
-- **Code::Blocks**  
-- **Biblioteca graphics.h**  
+## Tecnologias
 
-## Como Executar  
-1. **Baixe o repositório** ou clone com:  
-   ```bash
-   git clone https://github.com/seu-usuario/Dora-MAPS.git
-# 🎮 DoraMap’s
+- C
+- Code::Blocks com MinGW
+- `graphics.h` (WinBGIm)
 
-Um jogo desenvolvido em C utilizando a biblioteca `graphics.h`.
+## Configuração do ambiente
 
-## Requisitos
+1. Instale o [Code::Blocks](https://www.codeblocks.org/) e o [MinGW](https://osdn.net/projects/mingw/releases/) (marque o `gcc` e a `win32api`).
+2. Em *Settings → Compiler → Toolchain executables*, confirme o diretório do MinGW.
+3. Adicione a biblioteca gráfica:
+   - copie `graphics.h` e `winbgim.h` para a pasta `include` do MinGW;
+   - copie `libbgi.a` para a pasta `lib` do MinGW.
+4. Em *Settings → Compiler → Linker settings → Other linker options*, adicione:
 
-Para executar o projeto corretamente, você precisa:
+```
+-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+```
 
-- [Code::Blocks](https://www.codeblocks.org/) instalado
-- [MinGW](https://osdn.net/projects/mingw/releases/) configurado no sistema
-- Configuração do Code::Blocks para compilar projetos em C
-- Biblioteca `graphics.h` configurada
+## Executar
 
-## Configuração do Ambiente
+```bash
+git clone https://github.com/KlebersonCLima/Projeto--Dora-Map-s.git
+```
 
-### 1️⃣ Instalando o MinGW  
-Baixe e instale o MinGW pelo link oficial. Durante a instalação, certifique-se de marcar as opções para o compilador `gcc` e a biblioteca `win32api`.  
+Abra o projeto no Code::Blocks e compile. O executável pronto está na pasta `IMAGENS E EXECUTAVEL`.
 
-### 2️⃣ Configurando o Code::Blocks  
-Após instalar o MinGW, siga os passos:  
-
-1. Abra o **Code::Blocks**.  
-2. Vá em **Settings** → **Compiler...**.  
-3. Na aba **Toolchain executables**, verifique se o diretório do MinGW está corretamente configurado.  
-
-### 3️⃣ Configurando a `graphics.h`  
-A biblioteca `graphics.h` não vem por padrão no MinGW, então é necessário adicioná-la manualmente:  
-
-1. Baixe os arquivos `graphics.h`, `winbgim.h`, `libbgi.a` e copie-os para:  
-   - `graphics.h` e `winbgim.h` → Dentro da pasta `include` do MinGW  
-   - `libbgi.a` → Dentro da pasta `lib` do MinGW  
-2. No Code::Blocks, vá em **Settings** → **Compiler...** → **Linker settings**.  
-3. Adicione a seguinte linha nos **Other linker options**:  
-   ```bash
-   -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 ## Licença
 
-Este projeto foi desenvolvido exclusivamente para fins acadêmicos e educacionais.  
-Você tem permissão para usar, modificar e distribuir o código livremente, desde que seja para aprendizado ou projetos não comerciais.  
-
-Caso deseje utilizá-lo para outros fins, recomendamos dar os devidos créditos ao autor original.  
+Projeto acadêmico e educacional. O uso, a modificação e a distribuição são livres para aprendizado e projetos não comerciais; para outros fins, mantenha os créditos ao autor.
